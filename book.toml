@@ -1,0 +1,6 @@
+[book]
+authors = ["sinotca529"]
+language = "jp"
+multilingual = false
+src = "src"
+title = "Yet Another Neovim Text"
