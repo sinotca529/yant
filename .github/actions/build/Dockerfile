@@ -1,5 +1,5 @@
 FROM rust:latest
 
-RUN cargo install mdbook --no-default-features --features output
+RUN cargo install mdbook
 
 CMD ["mdbook", "build"]
