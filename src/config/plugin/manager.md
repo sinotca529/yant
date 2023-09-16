@@ -1,8 +1,9 @@
 # プラグインマネージャ
 
-プラグインの管理には [lazy.nvim](https://github.com/folke/lazy.nvim) を使います。
+プラグインの管理には [lazy.nvim](https://github.com/folke/lazy.nvim) を使うと良いでしょう。
+ここでは試しに、 `lazy.nvim` を使ってカラースキームを入れてみます。
 
-次のようにディレクトリ構造を更新しましょう。
+次のようにディレクトリ構造を更新してください。
 
 ```txt
 .
@@ -50,8 +51,8 @@ require('lazy').setup({
 
 ## `color-scheme.lua`
 
-試しに、カラースキームを入れてみましょう。
-ここでは [gruvbox-material](https://github.com/sainnhe/gruvbox-material) を使います。
+ここではカラースキームとして [gruvbox-material](https://github.com/sainnhe/gruvbox-material) を使っています。
+他にも[様々なカラースキーム](https://github.com/topics/neovim-colorscheme?o=desc&s=updated)がありますから、自分好みのものを見つけましょう。
 
 ```lua
 return {
