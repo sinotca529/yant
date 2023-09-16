@@ -10,7 +10,7 @@
 ├── init.lua
 └── lua
    ├── general.lua
-   ├── plugins.lua        # プラグインマネージャの設定
+   ├── plugin.lua        # プラグインマネージャの設定
    └── plugin             # 各プラグインの設定を置くディレクトリ
      └── color-scheme.lua # カラースキームプラグインの設定
 ```
@@ -22,15 +22,15 @@
 
 ## `init.lua`
 
-`plugins.lua` を読み込むために、 `init.lua` を次のように書き換えます。
+`plugin.lua` を読み込むために、 `init.lua` を次のように書き換えます。
 
 ```lua
 vim.loader.enable()  -- 設定の読み込みを高速化
 require('general')   -- general.lua を読み込む
-require('plugins')   -- plugins.lua を読み込む
+require('plugin')    -- plugin.lua を読み込む
 ```
 
-## `plugins.lua`
+## `plugin.lua`
 
 `lazy.nvim` にプラグインの設定をわたします。
 

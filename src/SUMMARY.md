@@ -21,4 +21,5 @@
   - [汎用設定](config/general.md)
   - [プラグイン](config/plugin/README.md)
     - [プラグインマネージャ](config/plugin/manager.md)
+    - [lazy.nvim](config/plugin/lazy.nvim.md)
     - [nvim-treesitter](config/plugin/nvim-treesitter.md)
