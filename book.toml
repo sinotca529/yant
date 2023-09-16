@@ -4,3 +4,6 @@ language = "jp"
 multilingual = false
 src = "src"
 title = "Yet Another Neovim Text"
+
+[output.html]
+git-repository-url = "https://github.com/sinotca529/yant"
