@@ -10,7 +10,7 @@
 ├── init.lua
 └── lua
    ├── general.lua
-   ├── plugin.lua        # プラグインマネージャの設定
+   ├── plugin.lua         # プラグインマネージャの設定
    └── plugin             # 各プラグインの設定を置くディレクトリ
      └── color-scheme.lua # カラースキームプラグインの設定
 ```

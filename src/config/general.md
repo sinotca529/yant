@@ -14,7 +14,7 @@
 
 ## `init.lua`
 
-`init.lua` は neovim の設定のエントリとなるファイルです。
+`init.lua` は Neovim の設定のエントリとなるファイルです。
 ここでは `general.lua` の読み込みを行います。
 
 ```lua
